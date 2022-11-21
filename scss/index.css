@@ -1,1 +1,91 @@
-/*# sourceMappingURL=index.css.map */
+.grid-layout {
+  display: grid;
+}
+
+.box_background {
+  background-color: #733FC8;
+  border-radius: 8px;
+}
+.box_background__grey {
+  background-color: #48556A;
+  border-radius: 8px;
+}
+.box_background__white {
+  background-color: #FFFFFF;
+  border-radius: 8px;
+}
+.box_background__grey_dark {
+  background-color: #19202D;
+  border-radius: 8px;
+}
+
+.heading {
+  font-family: Barlow Semi Condensed;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.heading__grey {
+  font-family: Barlow Semi Condensed;
+  font-size: 20px;
+  font-weight: 600;
+  color: #48556A;
+}
+
+.paragraph {
+  font-family: Barlow Semi Condensed;
+  font-size: 13px;
+  line-height: 18px;
+  color: #CFCFCF;
+  opacity: 0.7;
+}
+.paragraph__white {
+  font-family: Barlow Semi Condensed;
+  font-size: 13px;
+  line-height: 18px;
+  color: #FFFFFF;
+  opacity: 0.7;
+}
+.paragraph__grey {
+  font-family: Barlow Semi Condensed;
+  font-size: 13px;
+  line-height: 18px;
+  color: #48556A;
+  opacity: 0.7;
+}
+
+.name {
+  font-family: "Barlow Semi Condensed";
+  font-size: 13px;
+  line-height: 13px;
+  color: #FFFFFF;
+}
+.name__grey {
+  font-family: "Barlow Semi Condensed";
+  font-size: 13px;
+  line-height: 13px;
+  color: #48556A;
+}
+
+.status {
+  font-family: "Barlow Semi Condensed";
+  font-size: 11px;
+  line-height: 11px;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+.status__grey {
+  font-family: "Barlow Semi Condensed";
+  font-size: 11px;
+  line-height: 11px;
+  color: #48556A;
+  opacity: 0.5;
+}
+
+.grid-introduction {
+  display: grid;
+  width: 121px;
+  height: 28px;
+  grid-template-columns: auto auto;
+}/*# sourceMappingURL=index.css.map */

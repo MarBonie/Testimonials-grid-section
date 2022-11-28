@@ -1,15 +1,20 @@
 .grid-layout {
   display: grid;
   background-color: #F2F2F2;
+  padding: 71px 24px;
 }
 
 .box {
   border-radius: 8px;
   padding: 26px 32px 32px;
   margin-bottom: 24px;
+  filter: drop-shadow(40px 60px 50px rgba(72, 85, 106, 0.2474));
 }
 .box--pink {
   background-color: #733FC8;
+  background-repeat: no-repeat;
+  background-image: url("/assets/bg-pattern-quotation.svg");
+  background-position: right 24px top;
 }
 .box--grey {
   background-color: #48556A;

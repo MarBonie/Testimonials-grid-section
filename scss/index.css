@@ -1,7 +1,12 @@
+.body {
+  margin: 0 auto;
+  background-color: #F2F2F2;
+}
+
 .grid-layout {
   display: grid;
-  background-color: #F2F2F2;
-  padding: 71px 24px;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .box {
@@ -101,11 +106,15 @@
   padding-right: 17px;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 1110px) {
+  .body {
+    margin: 0 auto;
+  }
   .grid-layout {
     row-gap: 24px;
     -moz-column-gap: 30px;
          column-gap: 30px;
+    max-width: 1110px;
   }
   .box {
     margin-bottom: 0;

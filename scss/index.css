@@ -6,30 +6,24 @@
 
 .box {
   border-radius: 8px;
-  padding: 26px 32px 32px;
   margin-bottom: 24px;
   filter: drop-shadow(40px 60px 50px rgba(72, 85, 106, 0.2474));
 }
-
 .box--pink {
   background-color: #733FC8;
   background-repeat: no-repeat;
   background-image: url("/assets/bg-pattern-quotation.svg");
   background-position: right 24px top;
 }
-
 .box--grey {
   background-color: #48556A;
 }
-
 .box--white {
   background-color: #FFFFFF;
 }
-
 .box--vertical {
   background-color: #FFFFFF;
 }
-
 .box--grey_dark {
   background-color: #19202D;
 }
@@ -39,12 +33,11 @@
   font-size: 20px;
   font-weight: 600;
   line-height: 24px;
+  padding: 0 32px;
 }
-
 .heading--white {
   color: #FFFFFF;
 }
-
 .heading--grey {
   color: #48556A;
 }
@@ -55,16 +48,14 @@
   line-height: 18px;
   opacity: 0.7;
   margin-bottom: 0;
+  padding: 0 32px 32px 32px;
 }
-
 .paragraph--grey {
   color: #CFCFCF;
 }
-
 .paragraph--white {
   color: #FFFFFF;
 }
-
 .paragraph--grey_dark {
   color: #48556A;
 }
@@ -76,11 +67,9 @@
   margin: 0 0 4px;
   text-align: left;
 }
-
 .name--white {
   color: #FFFFFF;
 }
-
 .name--grey {
   color: #48556A;
 }
@@ -93,11 +82,9 @@
   margin: 0;
   opacity: 0.5;
 }
-
 .status--white {
   color: #FFFFFF;
 }
-
 .status__grey {
   color: #48556A;
 }
@@ -106,8 +93,8 @@
   display: flex;
   justify-content: flex-start;
   text-align: center;
+  padding: 26px 32px 0 32px;
 }
-
 .flex-names__image {
   height: 28px;
   align-self: center;
@@ -118,13 +105,12 @@
   .grid-layout {
     row-gap: 24px;
     -moz-column-gap: 30px;
-    column-gap: 30px;
+         column-gap: 30px;
   }
-
   .box {
     margin-bottom: 0;
+    padding: 0;
   }
-
   .box--pink {
     width: 540px;
     height: 282px;
@@ -132,32 +118,26 @@
     grid-column: 1/3;
     grid-row: row;
   }
-
   .box--grey {
     width: 255px;
     height: 282px;
     grid-column: 3;
     grid-row: row;
   }
-
   .box--white {
     width: 255px;
     height: 266px;
     grid-row: row 2;
   }
-
   .box--grey_dark {
     width: 540px;
     height: 266px;
     grid-column: 2/4;
     grid-row: row 2;
   }
-
   .box--vertical {
     width: 255px;
     height: 572px;
     grid-row: 2/4;
   }
-}
-
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */
